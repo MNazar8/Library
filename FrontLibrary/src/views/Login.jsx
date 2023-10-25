@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 function Login () {
     return (
         <div className=" flex flex-col justify-center items-center h-screen">
-            <div className=" absolute top-5 left-8 bg-slate-950 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mr-2">
-            <Link to="/">Home</Link>
-            </div>
+           <Link to="/" className=" absolute top-5 left-8 bg-slate-950 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mr-2">Home</Link>
             <div className=" bg-white p-8 rounded shadow-lg">
                 <h2 className=" text-2xl font-semibold mb-4">Login</h2>
                 <form action="">
